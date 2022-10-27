@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="midtarik.css">
+</head>
+<body>
+    <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+
+</script>
+    <link rel="stylesheet" href="midtarik.css">
+</head>
+<aside>
+<body>
+    <div class="top">
+    <div class="work"><a  style="color:	#000000;" href="midtarikworks.html"></a></div>
+    <div class="blog"><a  style="color:	#000000;" href="midtarikblog.html"></a></div>
+    <div class="contact"><a  style="color:#000000;" href="midtarik.html"></a></div>
+    <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">▼
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+            <a href="midtarik.html">Home</a>
+          <a href="midtarikworks.html">Works</a>
+          <a href="midtarikblog.html">Blog</a>
+        </div>
+        </div> 
+      </div>
+</div>
+        <div class="featuredworks">
+            <div class="text21">Featured Works</div>
+            <div class="cube11">
+                <div class="img"><img src="img1.png" alt="project"></div>
+                <div class="textcube1">
+                    <div class="text111">Design Dashboards</div>
+                    <div class="text112">
+                        <div class="year1">2020</div>
+                        <div class="textgray">Dashboard</div>
+                    </div>
+                    <div class="text113">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+
+                </div>
+            </div>
+            <div class="cube11">
+                <div class="img"><img src="img2.png" alt="project"></div>
+                <div class="textcube1">
+                    <div class="text111">Vibrant Portraits of 2020</div>
+                    <div class="text112">
+                        <div class="year1">2018</div>
+                        <div class="textgray">Illustration</div>
+                    </div>
+                    <div class="text113">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+
+                </div>
+            </div>
+            <div class="cube11">
+                <div class="img"><img src="img3.png" alt="project"></div>
+                <div class="textcube1">
+                    <div class="text111">36 Days of Malayalam type</div>
+                    <div class="text112">
+                        <div class="year1">2018</div>
+                        <div class="textgray">Typography</div>
+                    </div>
+                    <div class="text113">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+                </div>
+            </div>
+        </div>
+</body>
+<footer>
+    <div class="media">
+        <div class="logo">
+            <div class="whatsapp"><a href="https://www.whatsapp.com/"><img a width=20px; src="whatsapp.png" alt=""></a></div>
+            <div class="instagram"><a href="https://www.instagram.com/"><img width=20px; src="instagram.png" alt=""></a></div>
+            <div class="youtube"><a href="https://www.youtube.com/"><img width=20px; src="youtube.png" alt=""></a></div>
+            <div class="tiktok"><a href="https://www.tiktok.com/en/"><img  width=20px; src="tiktok.png" alt=""></a></div>
+        </div>
+        <div class="textfooter">Copyright ©2020 All rights reserved </div>
+
+    </div>
+</footer>
+</html>

@@ -1,0 +1,101 @@
+
+header{
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:rgb(43, 48, 53);
+}
+.name{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+.about{
+    display: flex;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    font-size: small;
+}
+.phototext{
+    display: flex;
+    padding: 50px;
+}
+.text{
+    padding: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1{
+    font-size: 40px;
+    padding-top: 30px;
+}
+.text2{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.text3{
+    padding-top: 30px;
+}
+button{
+    color:white;
+    background-color: gray;
+    border-width: 10px;
+    border-color: gray;
+}
+.textcenter{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+}
+main{
+flex-grow: 1;
+justify-content: center;
+background-color:rgb(43, 48, 53);
+}
+.text21{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:40px;
+    color: white;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+.photo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    color: white;
+}
+.schoolinfo{
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    columns: 300px;
+}
+.alatooinfo{
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    columns: 300px;
+}
+.moreinfo{
+    flex-grow: 1;
+    size: 80px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
